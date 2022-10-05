@@ -1,12 +1,13 @@
 package ir.maktab.entity;
 import lombok.*;
 @Data
-public class Product {
+public abstract class Product {
   private Integer productID;
   private String productName;
   private String model;
   private String size;
-  private String description;
+  private Integer inventory;
+  private Integer customerRequest;
   private Double price;
   private Double score;
 }

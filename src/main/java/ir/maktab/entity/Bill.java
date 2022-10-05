@@ -7,7 +7,7 @@ import java.util.List;
 @Data
 public class Bill {
     private Date date;
-    private User user;
+    private Customer customer;
     private List<Product> products;
     private Double finalPrice;
 }
